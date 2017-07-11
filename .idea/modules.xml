@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/service-provider/service-provider.iml" filepath="$PROJECT_DIR$/service-provider/service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-provider_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-provider_main.iml" group="service-provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-provider_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-provider_test.iml" group="service-provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-consul.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-consul.iml" />
+    </modules>
+  </component>
+</project>

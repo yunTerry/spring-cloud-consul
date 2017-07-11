@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netflix.ribbon:ribbon-loadbalancer:2.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.2/dad3e307fb759c3be36d93a1a7a2a031569d8de8/ribbon-loadbalancer-2.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.2/abf2aa73614968ac0d0308fe8c32213a900fa38f/ribbon-loadbalancer-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
