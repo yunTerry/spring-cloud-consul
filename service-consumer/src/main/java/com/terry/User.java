@@ -13,11 +13,15 @@ package com.terry;
 public class User {
 
     public Integer id;
-    public String name, img="http://up.qqjia.com/z/16/tu17317_45.png", sex="girl";
-    public int age=20;
+    public String name, img = "http://up.qqjia.com/z/16/tu17317_45.png", sex = "girl";
+    public int age = 20;
     public Long time;
+
+    public User() {
+    }
 
     public User(String name) {
         this.name = name;
     }
+
 }
