@@ -2,7 +2,7 @@
 
 ### 使用[Consul](https://www.consul.io/)做服务注册发现，类似Eureka
 
-下载[Consul](https://www.consul.io/)，对其运行`consul agent -dev`，启动开发模式
+下载Consul软件，对其运行`consul agent -dev`，启动开发模式
 
 在项目中添加依赖
 ```groove
@@ -19,9 +19,9 @@ spring.cloud.consul.port=8500
 
 ### service provider 服务提供者
 
-在5030端口提供一组管理用户信息的接口
+在5030端口提供一组管理用户信息的接口：
 ```java
-	@PostMapping("/user")
+    @PostMapping("/user")
     User addUser(@RequestBody User user);
 
     @GetMapping("/getauser")
@@ -34,7 +34,7 @@ spring.cloud.consul.port=8500
     void deleteUser(@RequestParam("id") Integer id);
 
  ```
-数据保存在MySQL数据库中
+配置MySQL数据库
 ```
 spring.datasource.dbcp2.driver-class-name=com.mysql.jdbc.Driver
 spring.datasource.url=jdbc:mysql://127.0.0.1:3306/userdb?useUnicode=true&characterEncoding=UTF-8
