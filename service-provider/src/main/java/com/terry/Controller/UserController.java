@@ -40,4 +40,9 @@ public class UserController {
         return userRepository.findAll();
     }
 
+    @DeleteMapping("/user")
+    void deleteUser(@RequestParam("id") Integer id) {
+        userRepository.delete(id);
+    }
+
 }
