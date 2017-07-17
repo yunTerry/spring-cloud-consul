@@ -1,6 +1,6 @@
 ## Spring cloud Consul
 
-### 使用[Consul](https://www.consul.io/)做服务注册发现，类似Eureka
+### 使用[Consul](https://www.consul.io/)做服务注册发现，类似Eureka、ZooKeeper
 
 下载Consul软件，对其运行`consul agent -dev`，启动开发模式
 
@@ -51,7 +51,7 @@ spring.jpa.hibernate.ddl-auto=update
     User addUser(@PathVariable("name") String name);
 
     @GetMapping("/user/{id}")
-    User getUser(@RequestParam("id") Integer id);
+    User getUser(@PathVariable("id") Integer id);
 
     @GetMapping("/user")
     List<User> getUserList();

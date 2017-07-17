@@ -28,7 +28,7 @@ public class UserController {
     }
 
     @GetMapping("/user/{id}")
-    User getUser(@RequestParam("id") Integer id) {
+    User getUser(@PathVariable("id") Integer id) {
         return restAPI.getUser(id);
     }
 

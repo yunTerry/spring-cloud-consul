@@ -1,2 +1,2 @@
 rootProject.name = 'spring-cloud-consul'
-
+include ':service-provider',':service-consumer'
